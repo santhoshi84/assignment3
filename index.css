@@ -1,0 +1,199 @@
+*{
+    margin:0px;
+    padding:0px
+}
+.header{
+    height:90px;
+    width:100%;
+    background-color:rgba(16,128,234,1);
+    display:flex;
+    justify-content: center;
+}
+.container{
+    width:90%;
+    background-color: white;
+    display:flex;
+
+}
+.header_container{
+    justify-content: space-between;
+}
+.logo{
+    width:90px;
+    height:15%;
+   
+    background-color: lawngreen;
+    font-size: 40px;
+    font-family: Segoe UI;
+    text-align: center;
+    line-height: 70px;
+}
+.nav{
+    height:90px;
+    width:45%;
+    background-color: green;
+    display:flex;
+}
+
+.nav-items{
+width:20%;
+height:90px;
+background-color:red;
+font-family: cursive;
+text-align: center;
+line-height: 70px;
+color: silver;
+cursor: pointer;
+
+}
+.nav-items:hover{
+    background-color: white;
+    color:blue;
+}
+.banner{
+    height:600px;
+    width:100%;
+    background-color:blueviolet;
+    background-image: url('./images/banner.jpg');
+    background-size: cover;
+}
+.overlay{
+    height:700px;
+    width:100%;
+    background-color: rgba(0,0,1,0.5);
+    display:flex;
+    align-items: center;
+}
+.banner_text{
+    height:350px ;
+    width:50%;
+    background: rgba(16,128,234,0.7);
+    font-family: fantasy;
+    display:flex;
+    align-items: center;
+    color: white;
+}
+.banner_title{
+    font-size:50px;
+    margin-bottom:15px ;
+}
+.banner_dsc{
+    margin-bottom: 30px;
+}
+.padd{
+    padding:20px;
+
+}
+.banner_btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    font-family: Segoe UI;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.banner_btn:hover{
+    background-color: white;
+    color:rgba(16,128,234,1);
+
+}
+.services_container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:white;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+}
+.service{
+    height: 400px;
+    width: 40px;
+    background-color:white ;
+    display: flex;
+    margin-top: 20px;
+
+}
+.service_img{
+    width: 40%;
+    height:600px;
+    background-color: red;
+    display: flex;
+
+    overflow:hidden;
+}
+.service_padd{
+    padding:20px;
+}
+.service_details{
+    width:90%;
+    height: 800px;
+    background-color: green;
+}
+.service_btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color:rgba(16,128,234,1);
+    color: white;
+    font-weight: bolder;
+    font-family: Segoe UI;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+    cursor: pointer;
+
+}
+.service_title{
+    margin-bottom: 15px;
+}
+.service_dsc{
+    margin-bottom: 30px;
+}
+.about{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    font-family: segoe ui;
+    align-items: center;
+}
+.about_container{
+    margin-top: 30px;
+    line-height: 30px;
+    display:inline;
+}
+.start_text{
+    font-size: 40px;
+    font-weight: bold;
+    color: grey;
+}
+/*css for highlight*/
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+.high_ele{
+    width: 20%;
+    height: 300px;
+    background-color: red;
+    
+}
